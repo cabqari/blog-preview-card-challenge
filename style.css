@@ -16,7 +16,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 16px;
+  padding: 20px;
   border-radius: 14px;
   background-color: hsl(0, 0%, 100%);
   border: 1px solid hsl(0, 0%, 7%);
@@ -27,7 +27,7 @@ img {
   border-radius: 14px;
 }
 button {
-  margin-top: 16px;
+  margin-top: 20px;
   margin-bottom: 10px;
   background-color: hsl(47, 88%, 63%);
   padding: 6px 12px;
@@ -38,20 +38,20 @@ button {
 button + p {
   color: hsl(0, 0%, 7%);
   font-size: 14px;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
-h3 {
-  margin-bottom: 16px;
+h2 {
+  margin-bottom: 20px;
   cursor: pointer;
   font-size: 20px;
   &:hover {
     color: hsl(47, 88%, 63%);
   }
 }
-h3 + p {
+h2 + p {
   color: hsl(0, 0%, 50%);
   font-size: 1rem;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 .profile {
   display: flex;
